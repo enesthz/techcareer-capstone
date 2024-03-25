@@ -1,0 +1,54 @@
+#fourth-section-qr {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+#fourth-section-qr img {
+  width: 100%;
+}
+
+#fourth-section-stores img {
+  width: 131px;
+}
+
+#fourth-section-phone-image img {
+  width: 100%;
+  top: -62%;
+  left: 0;
+}
+
+@media only screen and (max-width: 1264px) {
+  #fourth-section-phone-image img {
+    top: -38%;
+    width: 110%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #fourth-section-container-1 {
+    height: 551px;
+  }
+
+  #fourth-section-phone-image img {
+    top: -95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 68%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #fourth-section-container-1 {
+    height: 615px;
+  }
+
+  #fourth-section-phone-image img {
+    top: -95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+}

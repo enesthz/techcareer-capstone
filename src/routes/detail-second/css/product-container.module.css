@@ -1,0 +1,47 @@
+.product-image-container {
+  box-sizing: content-box;
+  width: 112px;
+  height: 112px;
+}
+
+.product-container-main {
+  height: 136px;
+  user-select: none;
+  transition: transform 0.3 ease-in-out;
+}
+
+.product-container-main:hover {
+  background-color: #fce1e9 !important;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.product-container-main div:nth-child(1) span:not(:nth-child(2)) {
+  font-size: 17px;
+}
+
+.product-container-main div:nth-child(1) span:nth-child(3) {
+  margin-top: auto;
+}
+
+.product-image-container img {
+  width: 100%;
+}
+
+.product-container-button {
+  position: absolute;
+  background-color: white;
+  bottom: 8%;
+  right: 1%;
+}
+
+.product-container-button:hover {
+  background-color: #fce1e9;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 407px) {
+  .product-container-main {
+    font-size: 0.8em;
+  }
+}

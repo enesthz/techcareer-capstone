@@ -1,0 +1,45 @@
+.header {
+  height: 64px;
+}
+
+.logo {
+  width: 124.16px;
+}
+
+.header-icon:hover {
+  background-color: #fce1e9;
+  cursor: pointer;
+}
+
+.hide {
+  display: none !important;
+}
+
+.language-selector-menu {
+  background-color: white;
+  position: absolute;
+  top: 40px;
+  width: 138px;
+  height: 134px;
+  left: 0;
+}
+
+.language-selector-menu div {
+  display: flex;
+  align-items: center;
+}
+
+.default-language {
+  background-color: rgb(236, 236, 236);
+}
+
+.selected-language {
+  background-color: #fce1e9;
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    height: 56px;
+    position: relative !important;
+  }
+}

@@ -1,0 +1,10 @@
+.first-section-main {
+  height: 272px;
+  background-color: rgb(247, 247, 247);
+}
+
+.first-section-main img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

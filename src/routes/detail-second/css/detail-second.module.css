@@ -1,0 +1,27 @@
+.link:hover {
+  border-bottom: 3.25px solid !important;
+}
+
+.selector-bar input {
+  width: 234px;
+  background-color: whitesmoke;
+}
+
+.product-section {
+  background-color: rgb(252, 252, 252);
+}
+
+.selector-bar {
+  margin-top: 0 !important;
+  position: sticky;
+  background-color: white;
+  top: 63px;
+  left: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 992px) {
+  .selector-bar {
+    top: 0;
+  }
+}

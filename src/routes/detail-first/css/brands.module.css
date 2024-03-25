@@ -1,0 +1,15 @@
+.brand-main {
+  cursor: pointer;
+}
+
+.brand-main > div > :not(:nth-child(1)) {
+  font-size: 0.8em;
+}
+
+.brand-main img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.brand-main:hover img {
+  transform: scale(1.05);
+}

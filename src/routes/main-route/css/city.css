@@ -1,0 +1,31 @@
+#city-main {
+  height: 242px;
+}
+
+.city-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.city-image:hover {
+  transform: scale(1.05);
+}
+
+.city-span {
+  left: 0;
+  bottom: 8px;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 992px) {
+  #city-main {
+    height: 212px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #city-main {
+    height: 156px;
+  }
+}

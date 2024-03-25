@@ -1,0 +1,94 @@
+.first-section {
+  background-color: rgb(247, 247, 247);
+  height: 608px;
+}
+
+#section-1-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: left 50%;
+}
+
+#first-section-input-container {
+  height: 80px;
+}
+
+#first-section-input-container input {
+  border: none;
+}
+
+#first-section-input-container input:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#first-section-text-1 {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1264px) {
+  .first-section {
+    height: 404px;
+  }
+
+  #first-section-text-1 {
+    font-size: 32px;
+  }
+
+  #first-section-container-1 {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .first-section {
+    height: 216px;
+  }
+
+  #first-section-text-1 {
+    font-size: 24px;
+  }
+
+  #first-section-input-container {
+    position: absolute;
+    top: 245px;
+    left: 0;
+    width: 100% !important;
+    flex-direction: column;
+    background-color: transparent !important;
+    border: none !important;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px !important;
+  }
+
+  #first-section-input-container button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .first-section {
+    height: 148px;
+  }
+
+  #first-section-input-container {
+    top: 188px;
+  }
+
+  #first-section-text-1 {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .first-section {
+    height: 188px;
+  }
+
+  #section-1-image {
+    width: 290px;
+  }
+}

@@ -1,0 +1,41 @@
+.cart-main {
+  width: 352px;
+  height: 587px;
+  background-color: white;
+  position: sticky;
+  top: 135px;
+  z-index: 1;
+}
+
+.cart-main > :nth-child(1) {
+  background-color: whitesmoke;
+  height: 64px;
+  padding: 8px;
+}
+
+.cart-main > :nth-child(1) div {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+  color: #ea004b;
+}
+
+.cart-accept {
+  height: 116px;
+  font-size: 16px;
+}
+
+.cart-accept span:nth-child(1) > span {
+  font-size: 10px;
+}
+
+.cart-accept button {
+  height: 46px;
+}
+
+.cart-accept button:disabled {
+  background-color: rgb(163, 163, 163) !important;
+  border-color: rgb(163, 163, 163) !important;
+}

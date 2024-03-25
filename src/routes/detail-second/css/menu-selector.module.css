@@ -1,0 +1,102 @@
+.menu-selector-main {
+  height: 54px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+}
+
+.menu-selector-main::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 0 12px;
+  position: relative;
+  user-select: none;
+}
+
+.menu-item::after {
+  content: "";
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  background-color: #ea004b;
+  top: 92%;
+  left: 38%;
+  opacity: 0;
+  border-radius: 20px;
+}
+
+.menu-item:hover {
+  background-color: #fce1e9;
+  cursor: pointer;
+}
+
+.menu-item:hover::after {
+  opacity: 1;
+}
+
+.menu-item.selected-menu {
+  color: #ea004b;
+}
+
+.menu-item.selected-menu::after {
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+
+.selector-button-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0%;
+  background-color: white;
+  overflow: visible;
+  width: 5%;
+}
+
+.selector-button-next > div {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 16px;
+}
+
+.selector-button-next > div:hover {
+  background-color: #ffeaf8;
+}
+
+.selector-button-prev {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  background-color: white;
+  overflow: visible;
+  width: 3%;
+}
+
+.selector-button-prev > div {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 16px;
+}
+
+.selector-button-prev > div:hover {
+  background-color: #ffeaf8;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media only screen and (max-width: 720px) {
+  .selector-button-next {
+    width: 10%;
+    right: 0px;
+  }
+}

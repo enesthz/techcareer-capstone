@@ -1,0 +1,18 @@
+.cart-item-main img {
+  width: 48px;
+  height: 48px;
+}
+
+.cart-quantity-selector {
+  width: 89px;
+  height: 33px;
+  padding: 0.8px;
+}
+
+.cart-quantity-button {
+  padding: 3px;
+}
+
+.cart-quantity-button:hover {
+  background-color: #fce1e9;
+}

@@ -1,0 +1,15 @@
+.third-section-main {
+  padding: 0 6%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .third-section-main {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .third-section-main {
+    padding: 0 10px;
+  }
+}
