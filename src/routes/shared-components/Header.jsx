@@ -21,7 +21,7 @@ function Header() {
   }
 
   return (
-    <div className="container-fluid px-3 px-lg-5 bg-white shadow header z-1 position-sticky top-0">
+    <div className="container-fluid px-3 px-lg-5 bg-white shadow header z-2 position-sticky top-0">
       <div className="row g-0 h-100">
         <div className="col-4 d-flex align-items-center d-lg-none">
           <div className="rounded-circle p-2 header-icon">
